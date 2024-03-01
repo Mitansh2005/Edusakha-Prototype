@@ -1,0 +1,80 @@
+.container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-left: 8vh;
+}
+.events{
+  width: 50vh;
+  height: 30vh;
+  border-radius: 3vh;
+  margin-bottom: 2vh;
+  cursor: pointer;
+}
+
+.Events_divs{
+  background-color: black;
+}
+.Welcome-sign{
+  font-family: 'Raleway';
+  font-weight: bold;
+  font-size: 8vh;
+  text-align: center;
+  margin-bottom: 5vh;
+  margin-top: 2vh;
+  color: #104911;
+}
+.register_button_redirect{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(212, 212, 212);
+
+}
+
+.register_button_redirect h1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15vh;
+  font-family: 'roboto';
+  font-size: 2vh;
+}
+.register_button_redirect input{
+  display: flex;
+
+  font-family: 'roboto';
+ 
+
+}
+@media  screen and (max-width:500px) {
+  body{
+    width:100%;
+    
+  }
+  .Welcome-sign{
+    font-size: 3vh;
+  }
+  .container{
+    display: block;
+    margin-left: 8vh;
+  }
+  .events{
+    width:30vh;
+    height:auto;
+
+  }
+  .Events_divs{
+    width: 30vh;
+    background-color: black;
+    margin-bottom: 2vh;
+  }
+  .Events_divs p{
+    width: 30vh;
+    font-size: 2.2vh;
+  }
+  .Welcome-sign{
+    margin-bottom: 2vh;
+  }
+}
